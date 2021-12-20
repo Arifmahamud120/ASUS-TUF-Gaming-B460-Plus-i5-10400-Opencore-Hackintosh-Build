@@ -1,4 +1,4 @@
-# ASUS TUF Gaming B460 Plus i5-10400 Opencore Hackintosh Build.
+# ASUS TUF Gaming B460 Plus i5-10500 Opencore Hackintosh Build.
 
 ![OpenCore Icon](https://github.com/acidanthera/OpenCorePkg/raw/master/Docs/Logos/OpenCore_with_text_Small.png)
 
@@ -14,14 +14,14 @@
 
 | Part        | Specs                                       |
 |-------------|---------------------------------------------|
-| CPU         | Intel® Core™ i5-10400                       |
+| CPU         | Intel® Core™ i5-10500                       |
 | iGPU        | Intel® UHD Graphics 630                     |
-| dGPU        | NVIDIA 1650 Super (Disabled)                |
+| dGPU        | XFX RX5500XT_8GB                            |
 | Audio       | Realtek S1200A codec *layout-id: 1*         |
 | Ethernet    | Intel® I219-V LAN                           |
-| WiFi        | Fenvi-T919                                  |
-| RAM         | HyperX FURY DDR4 HX432C16FB3/8 (X2)         |
-| SSD         | Crucial P5 500GB 3D NAND NVMe CT500P5SSD8   |
+| WiFi        | N/A                                         |
+| RAM         | Corsair Vengeance LPX 8GB 3200MHz DDR4 (X2) |
+| SSD         | Samsung 970 EVO NVMe M.2 250GB SSD          |
 | Motherboard | ASUS TUF Gaming B460 Plus BIOS Version 1401 |
 
 ### Working/Not working
@@ -32,7 +32,6 @@
 | :white_check_mark: | All USB External Ports (3.0 + 2.0 ) including F-Panel |
 | :white_check_mark: | Sound + Mic                                           |
 | :white_check_mark: | HDMI (Audio + Graphics)                               |
-| :x:                | DRM Content in Safari (Reason: IGPU only)             |
 | :white_check_mark: | iGPU Stability                                        |
 | :white_check_mark: | Sleep (also with peripherals plugged in)              |
 | :white_check_mark: | Ethernet                                              |
@@ -40,8 +39,6 @@
 | :white_check_mark: | Wifi                                                  |
 | :white_check_mark: | Bluetooth                                             |
 
-> **DRM content Netflix/Prime/AppleTV+ cannot be played in Safari/AppleTV+** 
-> **Plays well in Chrome/Firefox** 
 
 ### Installation Notes
 - Before using the [BIOS](BIOS/HackintoshBuildOC_0_6_9.CMO) profile provided in this repo. :warning: :warning: Update the BIOS to the version 1401 :warning: :warning:. BIOS file: [Direct Download](https://dlcdnets.asus.com/pub/ASUS/mb/LGA1200/TUF_GAMING_B460-PLUS/TUF-GAMING-B460-PLUS-ASUS-1401.zip). If you've Windows 10 installed I recommend you use [Asus AI Suite](https://dlcdnets.asus.com/pub/ASUS/mb/LGA1200/TUF_GAMING_B460-PLUS/ASUS_AI_Suite_3_V3.00.59_WIN10_64-bit.zip) and update BIOS using this utility. Universal update instructions can be found on [BIOS EZ flash utility](https://www.asus.com/in/support/FAQ/1008859/). 
